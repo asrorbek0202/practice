@@ -29,3 +29,19 @@ print(f"result1: {result1}")
 
 result2 = ceil(9.89)
 print(f"result2: {result2}")
+
+print("=== error handling system ===")
+
+car_dict = dict(make="Toyota", model="Camry", year=2020, color="Black")
+
+try:
+    print("passed here")
+    a = car_dict.speed
+    result = car_dict["origin"]
+    print(f"result: {result}")
+except Exception as err:
+    print("No origin state property found :", err)
+else:
+    print("No error found")
+finally:
+    print("This is executed no matter what")

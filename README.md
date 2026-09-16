@@ -28,3 +28,18 @@ git pull origin master
 - Class deep dive
 - Operations and Conditions
 - Loops
+- Tuple
+- List
+- Array
+- Comprehension
+- Packages & Debugging
+
+## Pip commands
+```
+windows pip | macOS pip3
+
+pip list
+pip install pillow
+pip uninstall pillow
+pip show pillow
+pip freeze > requirements.txt

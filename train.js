@@ -7,14 +7,14 @@
 // Va bu 21 soni arrayning tarkibidagi birinchi eng katta son hisobladi va bizga uning indeksi 1 qaytadi.
 
 function getHighestIndex(ary) {
-  if (ary.length === 0) return -1;
   let highestIndex = 0; 
-  for (let i = 1; i < ary.length; i++) {
-    if (ary[i] > ary[highestIndex]) {
-      highestIndex = i;
+  for (let i = 0; i < ary.length; i++) {
+    if (ary[i] > highestIndex) {
+      highestIndex = ary[i];
     }
   }
-  return highestIndex;
+  let index = ary.indexOf(highestIndex)
+  return index;
 }
 console.log(getHighestIndex([5,31,67,20,17])); 
 

@@ -1,7 +1,7 @@
 '''
 OBJECTS!
 
-1. what is object?
+1. what is object? ==> o'zining maxsus metod hamda propertylariga ega datatype
 2.iterable objects and RANGE 
 3.error handling system
 '''

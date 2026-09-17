@@ -1,6 +1,6 @@
 '''FUNCTIONS
 (1) DEFINE & CALL
-(2) Parametr & Atguments
+(2) Parametr & Arguments
 (3) Keyword & default arguments
 (4) Scope
 '''

@@ -1,10 +1,12 @@
-print("================================")
+print("============ number ====================")
 # in JAVA , variable is a name storage location for data
 # in Python , variable is a name that refers to an object in memory
 
 count = 100
 count_type = type(count)
 print(f" the count: {count}, and type: {count_type}")
+
+# pythonda hamma narsa object hatto primitive variblelarning ham o'zinig state hamda metodlari bor
 
 result1 = count.bit_count()  # method
 result2 = count.numerator  # state property
@@ -26,6 +28,7 @@ print(f"the result(3) : {result}")
 
 result = course.replace("FullStack", "MasterClass")
 print(f"the result(4) : {result}")
+
 
 print("============= boolean ===================")
 # functions : type(), bool(), int(), float(), str(), input(), print()

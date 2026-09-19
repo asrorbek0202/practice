@@ -1,3 +1,36 @@
+// TASK K
+// Shunday function yozing, u string qabul qilsin va string ichidagi unli harflar sonini qaytarsin.
+// MASALAN: countVowels("string") return 1;
+
+
+function countVowels(word) {
+  const vowels = "aeiouAEIOU";
+  let count = 0;
+  for (let vowel of word) {
+    if (vowels.includes(vowel)) {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+console.log(countVowels("string")); 
+console.log(countVowels("Hello World"));
+
+// def count_vowels(word):
+//     vowels = "aeiouAEIOU"
+//         count = 0
+//         for char in word:
+//         if char in vowels:
+//             count += 1
+            
+//     return count
+// print(count_vowels("string"))
+// print(count_vowels("Hello World"))  
+
+
+
 // TASK G 
 // Yagona parametrga ega function tuzing.
 // Va bu function parametr orqalik integer ma'lumot turlariga ega bo'lgan bir arrayni qabul qilsin.
@@ -6,17 +39,17 @@
 // Yuqoridagi misolda, birinchi indeksda 21 joylashgan.
 // Va bu 21 soni arrayning tarkibidagi birinchi eng katta son hisobladi va bizga uning indeksi 1 qaytadi.
 
-function getHighestIndex(ary) {
-  let highestIndex = 0; 
-  for (let i = 0; i < ary.length; i++) {
-    if (ary[i] > highestIndex) {
-      highestIndex = ary[i];
-    }
-  }
-  let index = ary.indexOf(highestIndex)
-  return index;
-}
-console.log(getHighestIndex([5,31,67,20,17])); 
+// function getHighestIndex(ary) {
+//   let highestIndex = 0; 
+//   for (let i = 0; i < ary.length; i++) {
+//     if (ary[i] > highestIndex) {
+//       highestIndex = ary[i];
+//     }
+//   }
+//   let index = ary.indexOf(highestIndex)
+//   return index;
+// }
+// console.log(getHighestIndex([5,31,67,20,17])); 
 
 
 // TASK ====> F

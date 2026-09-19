@@ -62,7 +62,7 @@ class Car():
     description = "This class makes cars"
 
     # constructor
-    def __new__(cls, *args):
+    def __new__(cls, *args):   # bu metod yozish shartmas lekin doim ishlab turadi
         print("*__new__*")
         return super().__new__(cls)
 
@@ -80,7 +80,7 @@ class Car():
     def __str__(self):
         return f"the car.name: {self.name} was produced in {self.year} year!"
 
-    def __call__(self):
+    def __call__(self):  # class dan object yaratib uni funksiya sifatida call qilishda
         print("object called as a function")
         return True
 
